@@ -1,0 +1,25 @@
+[project]
+name = "market-brief"
+version = "0.1.0"
+description = "Bản tóm tắt chứng khoán Việt Nam, lõi tách khỏi nguồn dữ liệu và kênh phát."
+requires-python = ">=3.12"
+dependencies = [
+    "pyyaml>=6.0.2",
+    "slack-sdk>=3.33",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+market-brief = "market_brief.entrypoints.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

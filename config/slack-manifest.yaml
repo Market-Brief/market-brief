@@ -1,0 +1,34 @@
+_metadata:
+  major_version: 1
+display_information:
+  name: Market Brief
+  description: Tóm tắt giá chứng khoán Việt Nam.
+features:
+  bot_user:
+    display_name: Market Brief
+    always_online: false
+  slash_commands:
+    - command: /brief
+      description: Hướng dẫn. Kèm mã thì tóm tắt giá
+      usage_hint: "[VCB] [en]"
+      should_escape: false
+    - command: /help
+      description: Xem các lệnh có thể chạy
+      usage_hint: "[en]"
+      should_escape: false
+oauth_config:
+  scopes:
+    bot:
+      - app_mentions:read
+      - chat:write
+      - commands
+      - im:history
+      - im:read
+settings:
+  event_subscriptions:
+    bot_events:
+      - app_mention
+      - message.im
+  org_deploy_enabled: false
+  socket_mode_enabled: true
+  token_rotation_enabled: false

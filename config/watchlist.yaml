@@ -1,0 +1,49 @@
+symbols:
+  - ticker: VNINDEX
+    name: VN-Index
+    exchange: INDEX
+    asset: index
+  - ticker: VN30
+    name: VN30
+    exchange: INDEX
+    asset: index
+  - ticker: VCB
+    name: Vietcombank
+    exchange: HOSE
+    asset: equity
+  - ticker: TCB
+    name: Techcombank
+    exchange: HOSE
+    asset: equity
+  - ticker: FPT
+    name: FPT
+    exchange: HOSE
+    asset: equity
+  - ticker: HPG
+    name: Hoa Phat
+    exchange: HOSE
+    asset: equity
+  - ticker: MWG
+    name: Mobile World
+    exchange: HOSE
+    asset: equity
+  - ticker: VNM
+    name: Vinamilk
+    exchange: HOSE
+    asset: equity
+  - ticker: VIC
+    name: Vingroup
+    exchange: HOSE
+    asset: equity
+  - ticker: VJC
+    name: Vietjet
+    exchange: HOSE
+    asset: equity
+  - ticker: SSI
+    name: SSI
+    exchange: HOSE
+    asset: equity
+  - ticker: GAS
+    name: PV Gas
+    exchange: HOSE
+    asset: equity
